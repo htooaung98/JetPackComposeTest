@@ -69,7 +69,6 @@ fun Home(navController: NavHostController? = null) {
     }
 }
 
-
 @Composable
 fun UserList(users:List<User>,navController: NavHostController? = null){
     LazyColumn{
